@@ -28,7 +28,7 @@ func twoCrystalBalls(arr []bool) int {
 
 }
 
-func main() {
+func runTwoCrystallBalls() {
 	ans := twoCrystalBalls([]bool{false, false, false, false, true, true})
 	fmt.Println(ans)
 }
